@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MixitIdeas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="icon" href="./android-chrome-192x192.png" type="image/x-icon">
+</head>
+<body>
+  <div class="animation">
+      <div class="symbol">
+        <div class="symbol-inside"></div>
+      </div>
+      <h1>MixitIdeas</h1>
+  </div>
+  <div id="controls">
+    <button id="record-button"><i class="fa-solid fa-record-vinyl"></i></button>
+    <button id="stop-button" disabled><i class="fa-solid fa-stop"></i></button>
+    <button id="play-button" disabled><i class="fa-solid fa-play"></i></button>
+    <button id="add-track"><i class="fa-solid fa-plus"></i></button>
+    <button id="loop-button"><i class="fa-solid fa-arrows-spin"></i></button>
+    <button id="export-button" ><i class="fa-solid fa-file-export"></i></button>
+  </div>
+
+  <div id="track-container"></div>
+
+  <!-- Load WaveSurfer.js -->
+  <script src="https://kit.fontawesome.com/be3a83d02a.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/wavesurfer.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
